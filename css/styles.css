@@ -835,6 +835,10 @@ footer p, footer a {
     line-height: 1.5;
 }
 
+.footer-social-container {
+    font-size: 24px;
+}
+
 .footer-top {
     display: flex;
     align-items: center;
@@ -1004,6 +1008,11 @@ footer p, footer a {
     margin: 8px 0 20px 0;
     color: #333;
     text-align: center;
+}
+
+.gallery-grid .gallery-item figure img {
+    width: 100%;
+    margin: 0;
 }
 
 /* @media (min-width: 768px) {

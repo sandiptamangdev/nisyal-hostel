@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
 
-    <meta name="theme-color" content="#fff" />
 
     <meta property="og:title" content="Nyisal Hostel – Empowering Himalayan Children Through Education" />
     <meta property="og:description" content="Support education and cultural preservation for children in Nyisal, Nepal." />
@@ -41,14 +41,14 @@
         <li><a href="#contact" class="desktop-nav-link" aria-label="Contact us for more information">Contact Us</a></li>
         </ul>
 
-        <button class="menu-btn btn-icon" id="menu-btn" aria-label="Open mobile menu">
+        <button type="button" class="menu-btn btn-icon" id="menu-btn" aria-label="Open mobile menu">
         <img class="menu-icon" id="menu-icon" src="icons/menu.svg" alt="Menu">
         </button>
     </div>
     </header>
 
     <nav class="nav-menu" id="nav-menu" aria-label="Mobile Navigation Menu">
-    <button class="close-btn btn-icon" id="close-btn" aria-label="Close mobile menu">
+    <button type="button" class="close-btn btn-icon" id="close-btn" aria-label="Close mobile menu">
         <img class="close-icon" id="close-icon" src="icons/close.svg" alt="Close">
     </button>
 
@@ -74,7 +74,6 @@
             "
             sizes="(max-width: 768px) 100vw, 1600px"
             alt="Background of Nyisal Hostel" 
-            fetchpriority="high" 
             decoding="async" 
             loading="eager" 
             width="1600" 
@@ -212,7 +211,7 @@
                         <h3>Connect With Us</h3>
                         <p><strong>Phone:</strong> +977 9818074707</p>
                         <p><strong>Email:</strong> <a href="mailto:nobdra10@gmail.com">nobdra10@gmail.com</a></p>
-                        <p><strong>Website:</strong> <a href="https://www.nyisalhostel.org" target="_blank">www.nyisalhostel.org</a></p>
+                        <p><strong>Website:</strong> <a rel="noopener" href="https://www.nyisalhostel.org" target="_blank">www.nyisalhostel.org</a></p>
                         <p><strong>Address:</strong> Boudha, Kathmandu, Nepal</p>
 
                     </div>
@@ -257,31 +256,30 @@
                 <div class="team-container container">
                 <div class="team__card">
                     <img src="img/team/team_1.webp" alt="Team Member 1" loading="lazy" width="200px" height="200px">
-                        <div>
-                            <h3>Ven Khenpo Palden</h3>
-                            <p>Advisor</p>
-                        </div>
+                    <div>
+                        <h3>Ven Khenpo Palden</h3>
+                        <p>Advisor</p>
+                    </div>
                 </div>
                     <div class="team__card">
                     <img src="img/team/team_2.webp" alt="Team Member 1" loading="lazy" width="200px" height="200px">
-                        <div>
-                            <h3>Milan</h3>
-                            <p>Advisor</p>
-                        </div>
+                    <div>
+                        <h3>Milan</h3>
+                        <p>Advisor</p>
+                    </div>
                 </div>
                 <div class="team__card">
                     <img src="img/team/team_3.webp" alt="Team Member 1" loading="lazy" width="200px" height="200px">
-                        <div>
-                            <h3>Nyima Lhazom</h3>
-                            <p>Chairman</p>
-                        </div>
+                    <div>
+                        <h3>Nyima Lhazom</h3>
+                        <p>Chairman</p>
+                    </div>
                 </div>
                 <div class="team__card">
                     <img src="img/team/team_4.webp" alt="Team Member 2" loading="lazy" width="200px" height="200px">  
                     <div>
                         <h3>Pemma Tsering</h3>
                         <p>Wise-Chairman</p>
-
                     </div>
                 </div>
                 <div class="team__card">
@@ -350,7 +348,7 @@
                     <div class="footer-social">
                         <p>Social Medias</p>
                         <hr>
-                        <div style="font-size: 24px;">
+                        <div class="footer-social-container">
                             <ul>
                                 <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a></li>
@@ -366,10 +364,5 @@
             </div>
         </div>   
     </footer>
-
-
-
-
-    <script src="js/main.js"></script>
 </body>
 </html>
